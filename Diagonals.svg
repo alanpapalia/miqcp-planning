@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="380" height="280">
+  <polygon points="90,30 350,169 51,217 291,30 191,250 90,30 350,169 25,88 191,250 90,30 51,217 25,88 291,30" fill="none" stroke="#C4242C" stroke-width="1" stroke-linejoin="bevel" />
+  <polygon points="25,88 51,217 191,250 350,169 291,30 90,30 25,88 " fill="none" stroke="black" stroke-width="1.5" />
+  <text x="38" y="240" font-family="Arial" font-size="19">A</text>
+  <text x="185" y="270" font-family="Arial" font-size="19">B</text>
+  <text x="357" y="182" font-family="Arial" font-size="19">C</text>
+  <text x="291" y="24" font-family="Arial" font-size="19">D</text>
+  <text x="82" y="25" font-family="Arial" font-size="19">E</text>
+  <text x="8" y="95" font-family="Arial" font-size="19">F</text>
+</svg>
