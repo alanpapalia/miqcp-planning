@@ -19,7 +19,7 @@ rw = 0.6        # Copter rotor width (m)
 rh = 0.15       # Copter rotor height (m)
 
 # Initial conditions
-zc0 = 3.0       # Copter horizontal initial position (m)
+zc0 = 1.0       # Copter horizontal initial position (m)
 h0 = 1.0        # Copter initial height (m)
 theta0 = 0.0    # Copter initial angle (rad)
 zcdot0 = 0.0    # Copter initial velocity (m/s)
