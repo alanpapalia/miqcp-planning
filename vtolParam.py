@@ -12,7 +12,7 @@ mu = 0.1        # Drag coefficient (kg/s)
 g = 9.81        # Gravity (m/s^2)
 
 # Animation parameters
-L = 6           # Ground length (m)
+L = 10           # Ground length (m)
 cbw = 0.3       # Copter body width (m)
 caw = 0.05      # Copter arm width (m)
 rw = 0.6        # Copter rotor width (m)
@@ -28,7 +28,7 @@ thetadot0 = 0.0 # Copter angle initial velocity (rad/s)
 
 # Simulation parameters
 t0 = 0.0        # Start time of simulation
-tf = 10         # End time of simulation
+tf = 3         # End time of simulation
 Ts = 0.01       # Sample time for simulation
 t_plot = 0.1   # Simulation update rate
 t_win = 20      # Plot time window
