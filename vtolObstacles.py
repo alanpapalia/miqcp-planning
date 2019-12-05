@@ -5,9 +5,9 @@ import vtolParam as P
 class vtolObstacles:
     def __init__(self, P, start = [0, 0], goal = [5, 5]):
         # max and min size of simulation world
-        self.sim_x_max = P.l
+        self.sim_x_max = P.L
         self.sim_x_min = 0
-        self.sim_y_max = P.l
+        self.sim_y_max = P.L
         self.sim_y_min = 0
         
         # size of the obstacle
@@ -52,7 +52,7 @@ class vtolObstacles:
         y_min = random.uniform(self.sim_y_min, self.sim_y_max - obs_size_y)
         x_max = x_min + obs_size_x
         y_max = y_min + obs_size_y
-        obstacle = [(x_min, y_min), (x_max, y_max)]
+        obstacle = ((x_min, y_min), (x_max, y_max))
         #print("Obstacle: [(x_min, y_min), (x_max, y_max)]: ", obstacle)
         return obstacle
     
