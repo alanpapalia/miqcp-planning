@@ -21,7 +21,7 @@ class vtolObstacles:
         # goal point and starting point
         self.goal = goal
         self.start = start
-        print("obs class init")
+        # print("obs class init")
         
     def check_if_inside(self, obs, pt):
         # Check if pt is inside obstacle augmented of the size of the robot
