@@ -5,10 +5,10 @@ import vtolParam as P
 class vtolObstacles:
     def __init__(self, P, start = [0, 0], goal = [5, 5]):
         # max and min size of simulation world
-        self.sim_x_max = P.L
-        self.sim_x_min = 0
-        self.sim_y_max = P.L
-        self.sim_y_min = 0
+        self.sim_x_max = goal[0] + 1 # P.L
+        self.sim_x_min = start[0] # 0
+        self.sim_y_max = goal[1] + 1 # P.L
+        self.sim_y_min = start[1] # 0
         
         # size of the obstacle
         self.obs_size_max = 1.5;
